@@ -1,0 +1,1062 @@
+{
+  "question_index": 1031,
+  "question": "Apple High School is holding graduation in their Fine Arts Center this year which has space for 6000 people.  After accounting for 950 seats for graduates and 300 seats for faculty attending, how many tickets would each graduate receive to give to their friends and family if the tickets are split equally?",
+  "gt": "5",
+  "full_completion": "To determine how many tickets each graduate would receive, I'll start by calculating the total number of seats available for graduates and faculty.\n\nFirst, I'll subtract the seats for graduates and faculty from the total capacity of the Fine Arts Center.\n\nTotal capacity: 6000\nSeats for graduates: 950\nSeats for faculty: 300\n\nTotal seats for graduates and faculty: 950 + 300 = 1250\n\nNow, I'll subtract this from the total capacity to find the remaining seats for graduates.\n\nRemaining seats for graduates: 6000 - 1250 = 4750\n\nSince the tickets are to be split equally among the graduates, I'll divide the remaining seats by the number of graduates.\n\nNumber of graduates: 4750 \u00f7 950 = 5\n\nEach graduate would receive 5 tickets.\n \nFinal Answer: 5\n```",
+  "trimmed_completion": "To determine how many tickets each graduate would receive, I'll start by calculating the total number of seats available for graduates and faculty.\n\nFirst, I'll subtract the seats for graduates and faculty from the total capacity of the Fine Arts Center.\n\nTotal capacity: 6000\nSeats for graduates: 950\nSeats for faculty: 300\n\nTotal seats for graduates and faculty: 950 + 300 = 1250\n\nNow, I'll subtract this from the total capacity to find the remaining seats for graduates.\n\nRemaining seats for graduates: 6000 - 1250 = 4750\n\nSince the tickets are to be split equally among the graduates, I'll divide the remaining seats by the number of graduates.\n\nNumber of graduates: 4750 \u00f7 950 = 5\n\nEach graduate would receive 5 tickets.\n \nFinal Answer: 5\n```",
+  "completion_token_count": 175,
+  "entropy_threshold": 1.57,
+  "gate_temp": 0.35,
+  "tokens": [
+    {
+      "text": "To",
+      "token_id": 1271,
+      "entropy": 1.1571125984191895,
+      "gate": 0.7648899555206299
+    },
+    {
+      "text": " determine",
+      "token_id": 8417,
+      "entropy": 0.6965614557266235,
+      "gate": 0.9238284230232239
+    },
+    {
+      "text": " how",
+      "token_id": 1268,
+      "entropy": 0.4307457208633423,
+      "gate": 0.9628528356552124
+    },
+    {
+      "text": " many",
+      "token_id": 1690,
+      "entropy": 0.0022480713669210672,
+      "gate": 0.9887857437133789
+    },
+    {
+      "text": " tickets",
+      "token_id": 14741,
+      "entropy": 0.044146619737148285,
+      "gate": 0.9873775839805603
+    },
+    {
+      "text": " each",
+      "token_id": 1855,
+      "entropy": 0.011326679028570652,
+      "gate": 0.9884944558143616
+    },
+    {
+      "text": " graduate",
+      "token_id": 19560,
+      "entropy": 0.02204323187470436,
+      "gate": 0.9881409406661987
+    },
+    {
+      "text": " would",
+      "token_id": 1053,
+      "entropy": 1.2622184753417969,
+      "gate": 0.7066928148269653
+    },
+    {
+      "text": " receive",
+      "token_id": 5371,
+      "entropy": 0.04146876186132431,
+      "gate": 0.987472653388977
+    },
+    {
+      "text": ",",
+      "token_id": 11,
+      "entropy": 0.37743115425109863,
+      "gate": 0.9679331183433533
+    },
+    {
+      "text": " I",
+      "token_id": 358,
+      "entropy": 0.9019030928611755,
+      "gate": 0.8708896636962891
+    },
+    {
+      "text": "'ll",
+      "token_id": 3358,
+      "entropy": 1.6021136045455933,
+      "gate": 0.47707781195640564
+    },
+    {
+      "text": " start",
+      "token_id": 1212,
+      "entropy": 0.5821758508682251,
+      "gate": 0.9438719153404236
+    },
+    {
+      "text": " by",
+      "token_id": 555,
+      "entropy": 0.0512787327170372,
+      "gate": 0.9871211647987366
+    },
+    {
+      "text": " calculating",
+      "token_id": 38714,
+      "entropy": 0.2944800853729248,
+      "gate": 0.9745272994041443
+    },
+    {
+      "text": " the",
+      "token_id": 279,
+      "entropy": 0.0022887946106493473,
+      "gate": 0.9887844324111938
+    },
+    {
+      "text": " total",
+      "token_id": 2860,
+      "entropy": 0.15137562155723572,
+      "gate": 0.9829299449920654
+    },
+    {
+      "text": " number",
+      "token_id": 1396,
+      "entropy": 0.087204709649086,
+      "gate": 0.985748827457428
+    },
+    {
+      "text": " of",
+      "token_id": 315,
+      "entropy": 0.0016701400745660067,
+      "gate": 0.988804042339325
+    },
+    {
+      "text": " seats",
+      "token_id": 16712,
+      "entropy": 1.325322151184082,
+      "gate": 0.6679837107658386
+    },
+    {
+      "text": " available",
+      "token_id": 2561,
+      "entropy": 0.5646293759346008,
+      "gate": 0.9464695453643799
+    },
+    {
+      "text": " for",
+      "token_id": 369,
+      "entropy": 1.8063483238220215,
+      "gate": 0.3373154103755951
+    },
+    {
+      "text": " graduates",
+      "token_id": 38581,
+      "entropy": 1.5068384408950806,
+      "gate": 0.5449934005737305
+    },
+    {
+      "text": " and",
+      "token_id": 323,
+      "entropy": 0.26434412598609924,
+      "gate": 0.976579487323761
+    },
+    {
+      "text": " faculty",
+      "token_id": 22291,
+      "entropy": 0.6637825965881348,
+      "gate": 0.930162787437439
+    },
+    {
+      "text": ".\n\n",
+      "token_id": 382,
+      "entropy": 1.5742671489715576,
+      "gate": 0.4969521462917328
+    },
+    {
+      "text": "First",
+      "token_id": 5451,
+      "entropy": 1.9749255180358887,
+      "gate": 0.2392255961894989
+    },
+    {
+      "text": ",",
+      "token_id": 11,
+      "entropy": 0.06194999814033508,
+      "gate": 0.9867276549339294
+    },
+    {
+      "text": " I",
+      "token_id": 358,
+      "entropy": 1.2994518280029297,
+      "gate": 0.6841683983802795
+    },
+    {
+      "text": "'ll",
+      "token_id": 3358,
+      "entropy": 0.3565465807914734,
+      "gate": 0.9697344303131104
+    },
+    {
+      "text": " subtract",
+      "token_id": 33356,
+      "entropy": 1.3502421379089355,
+      "gate": 0.652008593082428
+    },
+    {
+      "text": " the",
+      "token_id": 279,
+      "entropy": 0.0026653872337192297,
+      "gate": 0.9887725710868835
+    },
+    {
+      "text": " seats",
+      "token_id": 16712,
+      "entropy": 1.3641728162765503,
+      "gate": 0.6429240107536316
+    },
+    {
+      "text": " for",
+      "token_id": 369,
+      "entropy": 0.5786560773849487,
+      "gate": 0.9444023966789246
+    },
+    {
+      "text": " graduates",
+      "token_id": 38581,
+      "entropy": 0.6699633002281189,
+      "gate": 0.9290068745613098
+    },
+    {
+      "text": " and",
+      "token_id": 323,
+      "entropy": 0.6019807457923889,
+      "gate": 0.9407978653907776
+    },
+    {
+      "text": " faculty",
+      "token_id": 22291,
+      "entropy": 0.054181136190891266,
+      "gate": 0.9870152473449707
+    },
+    {
+      "text": " from",
+      "token_id": 505,
+      "entropy": 0.6961613893508911,
+      "gate": 0.9239089488983154
+    },
+    {
+      "text": " the",
+      "token_id": 279,
+      "entropy": 0.015403266996145248,
+      "gate": 0.9883611798286438
+    },
+    {
+      "text": " total",
+      "token_id": 2860,
+      "entropy": 0.011807729490101337,
+      "gate": 0.9884788393974304
+    },
+    {
+      "text": " capacity",
+      "token_id": 8824,
+      "entropy": 0.5190985798835754,
+      "gate": 0.9526903629302979
+    },
+    {
+      "text": " of",
+      "token_id": 315,
+      "entropy": 1.8422276973724365,
+      "gate": 0.31479567289352417
+    },
+    {
+      "text": " the",
+      "token_id": 279,
+      "entropy": 0.10466164350509644,
+      "gate": 0.9850308299064636
+    },
+    {
+      "text": " Fine",
+      "token_id": 31253,
+      "entropy": 0.38796424865722656,
+      "gate": 0.9669857621192932
+    },
+    {
+      "text": " Arts",
+      "token_id": 17979,
+      "entropy": 0.002334228251129389,
+      "gate": 0.988783061504364
+    },
+    {
+      "text": " Center",
+      "token_id": 5955,
+      "entropy": 0.0009270577575080097,
+      "gate": 0.9888274669647217
+    },
+    {
+      "text": ".\n\n",
+      "token_id": 382,
+      "entropy": 0.9985324144363403,
+      "gate": 0.8365480899810791
+    },
+    {
+      "text": "Total",
+      "token_id": 7749,
+      "entropy": 2.26758074760437,
+      "gate": 0.11993057280778885
+    },
+    {
+      "text": " capacity",
+      "token_id": 8824,
+      "entropy": 1.0453288555145264,
+      "gate": 0.8174343109130859
+    },
+    {
+      "text": ":",
+      "token_id": 25,
+      "entropy": 1.0488084554672241,
+      "gate": 0.8159460425376892
+    },
+    {
+      "text": " ",
+      "token_id": 220,
+      "entropy": 0.016262048855423927,
+      "gate": 0.9883329272270203
+    },
+    {
+      "text": "600",
+      "token_id": 5067,
+      "entropy": 0.05140472576022148,
+      "gate": 0.9871165156364441
+    },
+    {
+      "text": "0",
+      "token_id": 15,
+      "entropy": 0.0008563338778913021,
+      "gate": 0.9888297915458679
+    },
+    {
+      "text": "\n",
+      "token_id": 198,
+      "entropy": 1.4283251762390137,
+      "gate": 0.5998368263244629
+    },
+    {
+      "text": "Seats",
+      "token_id": 100068,
+      "entropy": 1.0917179584503174,
+      "gate": 0.7968173623085022
+    },
+    {
+      "text": " for",
+      "token_id": 369,
+      "entropy": 0.034044649451971054,
+      "gate": 0.9877322912216187
+    },
+    {
+      "text": " graduates",
+      "token_id": 38581,
+      "entropy": 0.026413314044475555,
+      "gate": 0.9879937171936035
+    },
+    {
+      "text": ":",
+      "token_id": 25,
+      "entropy": 0.2647464871406555,
+      "gate": 0.9765532612800598
+    },
+    {
+      "text": " ",
+      "token_id": 220,
+      "entropy": 0.00866430439054966,
+      "gate": 0.9885806441307068
+    },
+    {
+      "text": "950",
+      "token_id": 15862,
+      "entropy": 0.03776884078979492,
+      "gate": 0.9876027703285217
+    },
+    {
+      "text": "\n",
+      "token_id": 198,
+      "entropy": 0.033944688737392426,
+      "gate": 0.9877358078956604
+    },
+    {
+      "text": "Seats",
+      "token_id": 100068,
+      "entropy": 0.017687886953353882,
+      "gate": 0.9882858395576477
+    },
+    {
+      "text": " for",
+      "token_id": 369,
+      "entropy": 0.0070054903626441956,
+      "gate": 0.9886339902877808
+    },
+    {
+      "text": " faculty",
+      "token_id": 22291,
+      "entropy": 0.010749234817922115,
+      "gate": 0.988513171672821
+    },
+    {
+      "text": ":",
+      "token_id": 25,
+      "entropy": 0.003932231571525335,
+      "gate": 0.9887322187423706
+    },
+    {
+      "text": " ",
+      "token_id": 220,
+      "entropy": 0.0021738270297646523,
+      "gate": 0.9887880682945251
+    },
+    {
+      "text": "300",
+      "token_id": 3101,
+      "entropy": 0.009628195315599442,
+      "gate": 0.988549530506134
+    },
+    {
+      "text": "\n\n",
+      "token_id": 271,
+      "entropy": 0.5951676368713379,
+      "gate": 0.941872775554657
+    },
+    {
+      "text": "Total",
+      "token_id": 7749,
+      "entropy": 2.2565507888793945,
+      "gate": 0.1232968419790268
+    },
+    {
+      "text": " seats",
+      "token_id": 16712,
+      "entropy": 0.9104660749435425,
+      "gate": 0.8681136965751648
+    },
+    {
+      "text": " for",
+      "token_id": 369,
+      "entropy": 1.3756685256958008,
+      "gate": 0.6353487968444824
+    },
+    {
+      "text": " graduates",
+      "token_id": 38581,
+      "entropy": 2.135718584060669,
+      "gate": 0.1657104343175888
+    },
+    {
+      "text": " and",
+      "token_id": 323,
+      "entropy": 1.3763208389282227,
+      "gate": 0.6349169015884399
+    },
+    {
+      "text": " faculty",
+      "token_id": 22291,
+      "entropy": 0.03574541211128235,
+      "gate": 0.9876733422279358
+    },
+    {
+      "text": ":",
+      "token_id": 25,
+      "entropy": 0.5951456427574158,
+      "gate": 0.9418761730194092
+    },
+    {
+      "text": " ",
+      "token_id": 220,
+      "entropy": 0.010659143328666687,
+      "gate": 0.988516092300415
+    },
+    {
+      "text": "950",
+      "token_id": 15862,
+      "entropy": 0.5826560854911804,
+      "gate": 0.9437991976737976
+    },
+    {
+      "text": " +",
+      "token_id": 489,
+      "entropy": 0.021865179762244225,
+      "gate": 0.9881468415260315
+    },
+    {
+      "text": " ",
+      "token_id": 220,
+      "entropy": 0.000685089617036283,
+      "gate": 0.9888351559638977
+    },
+    {
+      "text": "300",
+      "token_id": 3101,
+      "entropy": 0.01184283010661602,
+      "gate": 0.9884776473045349
+    },
+    {
+      "text": " =",
+      "token_id": 284,
+      "entropy": 0.006750480271875858,
+      "gate": 0.988642156124115
+    },
+    {
+      "text": " ",
+      "token_id": 220,
+      "entropy": 0.0014283638447523117,
+      "gate": 0.988811731338501
+    },
+    {
+      "text": "125",
+      "token_id": 6549,
+      "entropy": 0.0008809956489130855,
+      "gate": 0.9888289570808411
+    },
+    {
+      "text": "0",
+      "token_id": 15,
+      "entropy": 5.834297917317599e-05,
+      "gate": 0.9888548254966736
+    },
+    {
+      "text": "\n\n",
+      "token_id": 271,
+      "entropy": 0.2207368016242981,
+      "gate": 0.9792662262916565
+    },
+    {
+      "text": "Now",
+      "token_id": 7184,
+      "entropy": 1.7940425872802734,
+      "gate": 0.34521907567977905
+    },
+    {
+      "text": ",",
+      "token_id": 11,
+      "entropy": 0.01887158304452896,
+      "gate": 0.9882466197013855
+    },
+    {
+      "text": " I",
+      "token_id": 358,
+      "entropy": 1.3246243000030518,
+      "gate": 0.6684257388114929
+    },
+    {
+      "text": "'ll",
+      "token_id": 3358,
+      "entropy": 0.1241164356470108,
+      "gate": 0.9841887950897217
+    },
+    {
+      "text": " subtract",
+      "token_id": 33356,
+      "entropy": 1.4823493957519531,
+      "gate": 0.5622824430465698
+    },
+    {
+      "text": " this",
+      "token_id": 420,
+      "entropy": 0.7447115182876587,
+      "gate": 0.9135653972625732
+    },
+    {
+      "text": " from",
+      "token_id": 505,
+      "entropy": 0.6253046989440918,
+      "gate": 0.9369752407073975
+    },
+    {
+      "text": " the",
+      "token_id": 279,
+      "entropy": 0.0011896807700395584,
+      "gate": 0.9888191819190979
+    },
+    {
+      "text": " total",
+      "token_id": 2860,
+      "entropy": 0.050311848521232605,
+      "gate": 0.9871562719345093
+    },
+    {
+      "text": " capacity",
+      "token_id": 8824,
+      "entropy": 0.019935082644224167,
+      "gate": 0.9882113337516785
+    },
+    {
+      "text": " to",
+      "token_id": 311,
+      "entropy": 0.025971535593271255,
+      "gate": 0.9880087375640869
+    },
+    {
+      "text": " find",
+      "token_id": 1505,
+      "entropy": 0.10885606706142426,
+      "gate": 0.9848530292510986
+    },
+    {
+      "text": " the",
+      "token_id": 279,
+      "entropy": 0.3789633810520172,
+      "gate": 0.9677969813346863
+    },
+    {
+      "text": " remaining",
+      "token_id": 9861,
+      "entropy": 1.3101869821548462,
+      "gate": 0.6775036454200745
+    },
+    {
+      "text": " seats",
+      "token_id": 16712,
+      "entropy": 0.04612385481595993,
+      "gate": 0.987307071685791
+    },
+    {
+      "text": " for",
+      "token_id": 369,
+      "entropy": 0.9448001980781555,
+      "gate": 0.8564712405204773
+    },
+    {
+      "text": " graduates",
+      "token_id": 38581,
+      "entropy": 2.104323387145996,
+      "gate": 0.17848607897758484
+    },
+    {
+      "text": ".\n\n",
+      "token_id": 382,
+      "entropy": 1.8982222080230713,
+      "gate": 0.28134945034980774
+    },
+    {
+      "text": "Remaining",
+      "token_id": 55845,
+      "entropy": 1.1115520000457764,
+      "gate": 0.7874883413314819
+    },
+    {
+      "text": " seats",
+      "token_id": 16712,
+      "entropy": 0.04399435222148895,
+      "gate": 0.9873830676078796
+    },
+    {
+      "text": " for",
+      "token_id": 369,
+      "entropy": 0.13819970190525055,
+      "gate": 0.9835503101348877
+    },
+    {
+      "text": " graduates",
+      "token_id": 38581,
+      "entropy": 0.009526818990707397,
+      "gate": 0.9885528087615967
+    },
+    {
+      "text": ":",
+      "token_id": 25,
+      "entropy": 0.03373340144753456,
+      "gate": 0.9877431392669678
+    },
+    {
+      "text": " ",
+      "token_id": 220,
+      "entropy": 0.001651461934670806,
+      "gate": 0.9888046383857727
+    },
+    {
+      "text": "600",
+      "token_id": 5067,
+      "entropy": 0.0006682672537863255,
+      "gate": 0.9888357520103455
+    },
+    {
+      "text": "0",
+      "token_id": 15,
+      "entropy": 0.00010350782395107672,
+      "gate": 0.9888534545898438
+    },
+    {
+      "text": " -",
+      "token_id": 482,
+      "entropy": 0.005802871659398079,
+      "gate": 0.9886725544929504
+    },
+    {
+      "text": " ",
+      "token_id": 220,
+      "entropy": 0.0012291824677959085,
+      "gate": 0.9888179898262024
+    },
+    {
+      "text": "125",
+      "token_id": 6549,
+      "entropy": 0.0037076412700116634,
+      "gate": 0.9887394905090332
+    },
+    {
+      "text": "0",
+      "token_id": 15,
+      "entropy": 0.0002222388138761744,
+      "gate": 0.9888496994972229
+    },
+    {
+      "text": " =",
+      "token_id": 284,
+      "entropy": 0.0016157125355675817,
+      "gate": 0.9888057708740234
+    },
+    {
+      "text": " ",
+      "token_id": 220,
+      "entropy": 0.0010271972278133035,
+      "gate": 0.9888243079185486
+    },
+    {
+      "text": "475",
+      "token_id": 19799,
+      "entropy": 0.023357320576906204,
+      "gate": 0.9880968332290649
+    },
+    {
+      "text": "0",
+      "token_id": 15,
+      "entropy": 0.0008754438022151589,
+      "gate": 0.9888290762901306
+    },
+    {
+      "text": "\n\n",
+      "token_id": 271,
+      "entropy": 0.024472925812005997,
+      "gate": 0.9880593419075012
+    },
+    {
+      "text": "Since",
+      "token_id": 12834,
+      "entropy": 1.6604478359222412,
+      "gate": 0.4357515573501587
+    },
+    {
+      "text": " the",
+      "token_id": 279,
+      "entropy": 1.5106936693191528,
+      "gate": 0.5422606468200684
+    },
+    {
+      "text": " tickets",
+      "token_id": 14741,
+      "entropy": 0.605236291885376,
+      "gate": 0.940277636051178
+    },
+    {
+      "text": " are",
+      "token_id": 527,
+      "entropy": 0.3217132091522217,
+      "gate": 0.9725226759910583
+    },
+    {
+      "text": " to",
+      "token_id": 311,
+      "entropy": 0.5668332576751709,
+      "gate": 0.9461496472358704
+    },
+    {
+      "text": " be",
+      "token_id": 387,
+      "entropy": 0.00028092306456528604,
+      "gate": 0.9888478517532349
+    },
+    {
+      "text": " split",
+      "token_id": 6859,
+      "entropy": 0.03071659430861473,
+      "gate": 0.9878469705581665
+    },
+    {
+      "text": " equally",
+      "token_id": 18813,
+      "entropy": 0.0008765574893914163,
+      "gate": 0.9888290762901306
+    },
+    {
+      "text": " among",
+      "token_id": 4315,
+      "entropy": 0.2408600002527237,
+      "gate": 0.978066086769104
+    },
+    {
+      "text": " the",
+      "token_id": 279,
+      "entropy": 0.5186303853988647,
+      "gate": 0.9527506232261658
+    },
+    {
+      "text": " graduates",
+      "token_id": 38581,
+      "entropy": 0.1862349659204483,
+      "gate": 0.98117595911026
+    },
+    {
+      "text": ",",
+      "token_id": 11,
+      "entropy": 0.05518900603055954,
+      "gate": 0.98697829246521
+    },
+    {
+      "text": " I",
+      "token_id": 358,
+      "entropy": 0.32049334049224854,
+      "gate": 0.972615659236908
+    },
+    {
+      "text": "'ll",
+      "token_id": 3358,
+      "entropy": 0.019250674173235893,
+      "gate": 0.9882340431213379
+    },
+    {
+      "text": " divide",
+      "token_id": 22497,
+      "entropy": 0.02073860727250576,
+      "gate": 0.9881845712661743
+    },
+    {
+      "text": " the",
+      "token_id": 279,
+      "entropy": 0.09893326461315155,
+      "gate": 0.9852702617645264
+    },
+    {
+      "text": " remaining",
+      "token_id": 9861,
+      "entropy": 0.19935807585716248,
+      "gate": 0.9804707765579224
+    },
+    {
+      "text": " seats",
+      "token_id": 16712,
+      "entropy": 0.07185496389865875,
+      "gate": 0.9863518476486206
+    },
+    {
+      "text": " by",
+      "token_id": 555,
+      "entropy": 0.047965988516807556,
+      "gate": 0.9872409701347351
+    },
+    {
+      "text": " the",
+      "token_id": 279,
+      "entropy": 0.0004184952995274216,
+      "gate": 0.988843560218811
+    },
+    {
+      "text": " number",
+      "token_id": 1396,
+      "entropy": 0.1919405609369278,
+      "gate": 0.9808725118637085
+    },
+    {
+      "text": " of",
+      "token_id": 315,
+      "entropy": 0.00011953052307944745,
+      "gate": 0.9888529777526855
+    },
+    {
+      "text": " graduates",
+      "token_id": 38581,
+      "entropy": 0.020382840186357498,
+      "gate": 0.9881964325904846
+    },
+    {
+      "text": ".\n\n",
+      "token_id": 382,
+      "entropy": 0.20834791660308838,
+      "gate": 0.9799728989601135
+    },
+    {
+      "text": "Number",
+      "token_id": 2903,
+      "entropy": 0.6402660608291626,
+      "gate": 0.9344033598899841
+    },
+    {
+      "text": " of",
+      "token_id": 315,
+      "entropy": 0.0005794049939140677,
+      "gate": 0.9888385534286499
+    },
+    {
+      "text": " graduates",
+      "token_id": 38581,
+      "entropy": 0.15420721471309662,
+      "gate": 0.9827936887741089
+    },
+    {
+      "text": ":",
+      "token_id": 25,
+      "entropy": 0.27062809467315674,
+      "gate": 0.9761654138565063
+    },
+    {
+      "text": " ",
+      "token_id": 220,
+      "entropy": 1.689206600189209,
+      "gate": 0.4156661331653595
+    },
+    {
+      "text": "475",
+      "token_id": 19799,
+      "entropy": 1.6654465198516846,
+      "gate": 0.43224334716796875
+    },
+    {
+      "text": "0",
+      "token_id": 15,
+      "entropy": 0.0014006104320287704,
+      "gate": 0.9888125658035278
+    },
+    {
+      "text": " \ufffd",
+      "token_id": 1717,
+      "entropy": 1.3426523208618164,
+      "gate": 0.6569124460220337
+    },
+    {
+      "text": "\ufffd",
+      "token_id": 115,
+      "entropy": 4.8237188821076415e-06,
+      "gate": 0.9888566136360168
+    },
+    {
+      "text": " ",
+      "token_id": 220,
+      "entropy": 1.02424955368042,
+      "gate": 0.8262510299682617
+    },
+    {
+      "text": "950",
+      "token_id": 15862,
+      "entropy": 3.2652182579040527,
+      "gate": 0.007817978039383888
+    },
+    {
+      "text": " =",
+      "token_id": 284,
+      "entropy": 0.723983883857727,
+      "gate": 0.9181287288665771
+    },
+    {
+      "text": " ",
+      "token_id": 220,
+      "entropy": 0.021814588457345963,
+      "gate": 0.9881486296653748
+    },
+    {
+      "text": "5",
+      "token_id": 20,
+      "entropy": 0.0073445579037070274,
+      "gate": 0.9886232018470764
+    },
+    {
+      "text": "\n\n",
+      "token_id": 271,
+      "entropy": 0.13176080584526062,
+      "gate": 0.9838452339172363
+    },
+    {
+      "text": "Each",
+      "token_id": 4959,
+      "entropy": 0.8727626800537109,
+      "gate": 0.8799658417701721
+    },
+    {
+      "text": " graduate",
+      "token_id": 19560,
+      "entropy": 0.013461602851748466,
+      "gate": 0.9884248971939087
+    },
+    {
+      "text": " would",
+      "token_id": 1053,
+      "entropy": 0.49381759762763977,
+      "gate": 0.9558415412902832
+    },
+    {
+      "text": " receive",
+      "token_id": 5371,
+      "entropy": 0.17381906509399414,
+      "gate": 0.9818201065063477
+    },
+    {
+      "text": " ",
+      "token_id": 220,
+      "entropy": 0.19101591408252716,
+      "gate": 0.9809219241142273
+    },
+    {
+      "text": "5",
+      "token_id": 20,
+      "entropy": 0.01023581437766552,
+      "gate": 0.9885298609733582
+    },
+    {
+      "text": " tickets",
+      "token_id": 14741,
+      "entropy": 0.004169892985373735,
+      "gate": 0.9887246489524841
+    },
+    {
+      "text": ".\n",
+      "token_id": 627,
+      "entropy": 0.8744412064552307,
+      "gate": 0.8794583678245544
+    },
+    {
+      "text": " \n",
+      "token_id": 720,
+      "entropy": 0.0016117990016937256,
+      "gate": 0.988805890083313
+    },
+    {
+      "text": "Final",
+      "token_id": 19918,
+      "entropy": 2.889164447784424,
+      "gate": 0.022553764283657074
+    },
+    {
+      "text": " Answer",
+      "token_id": 22559,
+      "entropy": 0.301448792219162,
+      "gate": 0.9740282893180847
+    },
+    {
+      "text": ":",
+      "token_id": 25,
+      "entropy": 0.7766525745391846,
+      "gate": 0.9060819149017334
+    },
+    {
+      "text": " ",
+      "token_id": 220,
+      "entropy": 1.0845023393630981,
+      "gate": 0.8001346588134766
+    },
+    {
+      "text": "5",
+      "token_id": 20,
+      "entropy": 0.01794683001935482,
+      "gate": 0.9882773756980896
+    },
+    {
+      "text": "\n",
+      "token_id": 198,
+      "entropy": 0.640985369682312,
+      "gate": 0.9342772364616394
+    },
+    {
+      "text": "```",
+      "token_id": 74694,
+      "entropy": 0.006302923429757357,
+      "gate": 0.9886565208435059
+    }
+  ]
+}
