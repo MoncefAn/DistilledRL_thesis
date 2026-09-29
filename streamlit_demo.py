@@ -715,9 +715,6 @@ with tab_compare:
                 f"""
                 <div class="column-card {card_class}">
                   <div class="model-header">{model_labels[model_name]}</div>
-                  <span class="stat-badge {'badge-green' if p1 >= 0.5 else 'badge-red'}">
-                    pass@1 = {p1*100:.0f}%
-                  </span>
                   <span class="stat-badge badge-grey">
                     {stats['n_correct']}/{stats['n_total']} correct
                   </span>
