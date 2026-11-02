@@ -45,8 +45,11 @@ The central theoretical contribution of this thesis is a **confidence-gated vari
 The gate attenuates teacher influence at tokens where the teacher's next-token distribution is uncertain:
 
 $$
-w_{i,t} = 1 + c_{i,t}\left(\widetilde{\rho}_{i,t} - 1\right), \qquad
-c_{i,t} = \operatorname{sigmoid}\!\left(\frac{H^\star - H_{\text{teacher},i,t}}{\tau}\right)
+w_{i,t} = 1 + c_{i,t}\left(\widetilde{\rho}_{i,t} - 1\right),
+\qquad
+c_{i,t} = \text{sigmoid}\left(
+\frac{H^\star - H_{\text{teacher},i,t}}{\tau}
+\right)
 $$
 
 where $H_{\text{teacher},i,t}$ is the teacher's per-token entropy, $H^\star$ is a calibrated entropy threshold, and $\tau$ is a transition scale. When the teacher is confident, $c \to 1$ and the variant recovers the original DistilledRL weight. When the teacher is uncertain, $c \to 0$ and the teacher's influence collapses toward the ordinary RL update.
